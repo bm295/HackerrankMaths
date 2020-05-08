@@ -1,0 +1,3 @@
+"opencover.4.7.922\OpenCover.Console.exe" -target:"C:\Program Files\dotnet\dotnet.exe" -targetargs:"test D:\github\HackerrankMaths\UnitTest" -output:"D:\github\HackerrankMaths\CoverageReports\Results.xml" -filter:"+[*]* -[UnitTest*]*" -register:user
+
+"ReportGenerator_4.5.8\netcoreapp3.0\ReportGenerator.exe" -reports:"D:\github\HackerrankMaths\CoverageReports\Results.xml" -targetdir:"D:\github\HackerrankMaths\CoverageReports" -assemblyfilters:"-xunit.*"
